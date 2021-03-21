@@ -1,6 +1,35 @@
+
+
 body{
     background: hsl(185, 75%, 39%);
 }
+
+.profile-container{
+    background-color: aliceblue;
+    height: 350px;
+    width: 350px;
+}
+.profile-top{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 125px;
+    width: auto;
+}
+
+#photo-user{
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 5px solid #000;
+    
+}
 p{
     color: red;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
